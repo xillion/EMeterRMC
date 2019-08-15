@@ -1,0 +1,502 @@
+EESchema Schematic File Version 4
+LIBS:EMeterRMC-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_Module:E70-868T14S2 U?
+U 1 1 5D4A483F
+P 5400 2900
+AR Path="/5D49354B/5D4A47A7/5D4A483F" Ref="U?"  Part="1" 
+AR Path="/5D809DC1/5D4A483F" Ref="U?"  Part="1" 
+AR Path="/5D4A483F" Ref="U1"  Part="1" 
+F 0 "U1" H 5400 3761 50  0000 C CNN
+F 1 "E70-868T14S2" H 5400 3672 50  0000 C CNN
+F 2 "RF_Module:E70-868MS14" H 5380 3810 50  0001 C CNN
+F 3 "http://www.ebyte.com/en/downpdf.aspx?id=241" H 5380 3810 50  0001 C CNN
+F 4 "~" H 5400 2900 50  0001 C CNN "Description"
+F 5 "EBYTE" H 5400 2900 50  0001 C CNN "Manufacturer"
+F 6 "E70-868T14S2" H 5400 2900 50  0001 C CNN "PartNumber"
+F 7 "SMD" H 5400 2900 50  0001 C CNN "MountType"
+	1    5400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3000 6000 2900
+Connection ~ 6000 2500
+Wire Wire Line
+	6000 2500 6000 2400
+Connection ~ 6000 2600
+Wire Wire Line
+	6000 2600 6000 2500
+Connection ~ 6000 2700
+Wire Wire Line
+	6000 2700 6000 2600
+Connection ~ 6000 2800
+Wire Wire Line
+	6000 2800 6000 2700
+Connection ~ 6000 2900
+Wire Wire Line
+	6000 2900 6000 2800
+Wire Wire Line
+	3400 2700 4000 2700
+Wire Wire Line
+	4800 2800 4100 2800
+Wire Wire Line
+	4800 2300 3600 2300
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5DA21D95
+P 1800 5750
+F 0 "SW1" H 2050 5850 50  0000 C CNN
+F 1 "BTN1" H 1800 5650 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_KXT3" H 1800 5950 50  0001 C CNN
+F 3 "~" H 1800 5950 50  0001 C CNN
+F 4 "~" H 1800 5750 50  0001 C CNN "Description"
+F 5 "~" H 1800 5750 50  0001 C CNN "Manufacturer"
+F 6 "SMD" H 1800 5750 50  0001 C CNN "MountType"
+F 7 "CK_KXT3" H 1800 5750 50  0001 C CNN "PartNumber"
+	1    1800 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5DA228D7
+P 1800 6250
+F 0 "SW2" H 2050 6350 50  0000 C CNN
+F 1 "BTN3" H 1800 6150 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_KXT3" H 1800 6450 50  0001 C CNN
+F 3 "~" H 1800 6450 50  0001 C CNN
+F 4 "~" H 1800 6250 50  0001 C CNN "Description"
+F 5 "~" H 1800 6250 50  0001 C CNN "Manufacturer"
+F 6 "SMD" H 1800 6250 50  0001 C CNN "MountType"
+F 7 "CK_KXT3" H 1800 6250 50  0001 C CNN "PartNumber"
+	1    1800 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5DA22CC5
+P 1800 6750
+F 0 "SW3" H 2050 6850 50  0000 C CNN
+F 1 "BTN5" H 1800 6650 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_KXT3" H 1800 6950 50  0001 C CNN
+F 3 "~" H 1800 6950 50  0001 C CNN
+F 4 "~" H 1800 6750 50  0001 C CNN "Description"
+F 5 "~" H 1800 6750 50  0001 C CNN "Manufacturer"
+F 6 "SMD" H 1800 6750 50  0001 C CNN "MountType"
+F 7 "CK_KXT3" H 1800 6750 50  0001 C CNN "PartNumber"
+	1    1800 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5DA230BB
+P 2800 6750
+F 0 "SW6" H 3050 6850 50  0000 C CNN
+F 1 "BTN6" H 2800 6650 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_KXT3" H 2800 6950 50  0001 C CNN
+F 3 "~" H 2800 6950 50  0001 C CNN
+F 4 "~" H 2800 6750 50  0001 C CNN "Description"
+F 5 "~" H 2800 6750 50  0001 C CNN "Manufacturer"
+F 6 "SMD" H 2800 6750 50  0001 C CNN "MountType"
+F 7 "CK_KXT3" H 2800 6750 50  0001 C CNN "PartNumber"
+	1    2800 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5DA235DF
+P 2800 6250
+F 0 "SW5" H 3050 6350 50  0000 C CNN
+F 1 "BTN4" H 2800 6150 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_KXT3" H 2800 6450 50  0001 C CNN
+F 3 "~" H 2800 6450 50  0001 C CNN
+F 4 "~" H 2800 6250 50  0001 C CNN "Description"
+F 5 "~" H 2800 6250 50  0001 C CNN "Manufacturer"
+F 6 "SMD" H 2800 6250 50  0001 C CNN "MountType"
+F 7 "CK_KXT3" H 2800 6250 50  0001 C CNN "PartNumber"
+	1    2800 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5DA239E9
+P 2800 5750
+F 0 "SW4" H 3050 5850 50  0000 C CNN
+F 1 "BTN2" H 2800 5650 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_KXT3" H 2800 5950 50  0001 C CNN
+F 3 "~" H 2800 5950 50  0001 C CNN
+F 4 "~" H 2800 5750 50  0001 C CNN "Description"
+F 5 "~" H 2800 5750 50  0001 C CNN "Manufacturer"
+F 6 "SMD" H 2800 5750 50  0001 C CNN "MountType"
+F 7 "CK_KXT3" H 2800 5750 50  0001 C CNN "PartNumber"
+	1    2800 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5250 1600 5750
+Connection ~ 1600 6250
+Wire Wire Line
+	2600 5250 2600 5750
+Connection ~ 2600 5750
+Wire Wire Line
+	2600 5750 2600 6250
+Connection ~ 2600 6250
+Wire Wire Line
+	2600 6250 2600 6750
+Wire Wire Line
+	2000 6500 3000 6500
+Wire Wire Line
+	2000 6950 3000 6950
+Wire Wire Line
+	2000 6750 2000 6950
+Wire Wire Line
+	3000 6750 3000 6950
+Connection ~ 3000 6950
+Wire Wire Line
+	3000 6950 3500 6950
+Wire Wire Line
+	2000 6250 2000 6500
+Wire Wire Line
+	3000 6250 3000 6500
+Connection ~ 3000 6500
+Wire Wire Line
+	3000 6500 3500 6500
+Wire Wire Line
+	2000 5750 2000 6000
+Wire Wire Line
+	3000 5750 3000 6000
+Text GLabel 3500 6000 2    50   Input ~ 0
+BTN_ROW1
+Text GLabel 3500 6500 2    50   Input ~ 0
+BTN_ROW2
+Text GLabel 3500 6950 2    50   Input ~ 0
+BTN_ROW3
+Text GLabel 1600 5250 1    50   Input ~ 0
+BTN_COL1
+Text GLabel 2600 5250 1    50   Input ~ 0
+BTN_COL2
+Text GLabel 3400 2300 0    50   Input ~ 0
+BTN_COL1
+Text GLabel 3400 2400 0    50   Input ~ 0
+BTN_COL2
+Text GLabel 3400 2700 0    50   Input ~ 0
+BTN_ROW1
+Text GLabel 3400 2800 0    50   Input ~ 0
+BTN_ROW2
+Text GLabel 3400 2900 0    50   Input ~ 0
+BTN_ROW3
+Wire Wire Line
+	4800 2900 4200 2900
+Wire Notes Line
+	1400 6050 3400 6050
+Wire Notes Line
+	1400 6550 3400 6550
+Wire Notes Line
+	1400 7050 3400 7050
+Wire Notes Line
+	3400 7050 3400 5550
+Wire Notes Line
+	3400 5550 1400 5550
+Wire Notes Line
+	1400 5550 1400 7050
+Wire Notes Line
+	2350 7050 2350 5550
+Wire Wire Line
+	6200 2200 6200 2300
+Wire Wire Line
+	6200 2300 6000 2300
+$Comp
+L Device:Antenna AE1
+U 1 1 5D4E0076
+P 6200 2000
+F 0 "AE1" H 6280 1989 50  0000 L CNN
+F 1 "Antenna" H 6280 1898 50  0000 L CNN
+F 2 "RF_Antenna:Taxes_SWRA416_868MHz_Left" H 6200 2000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/an/swra416/swra416.pdf" H 6200 2000 50  0001 C CNN
+	1    6200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5D558072
+P 7950 3800
+F 0 "BT1" H 8068 3896 50  0000 L CNN
+F 1 "Battery_Cell" H 8068 3805 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Linx_BAT-HLD-001" V 7950 3860 50  0001 C CNN
+F 3 "~" V 7950 3860 50  0001 C CNN
+	1    7950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2150 3600 2300
+Connection ~ 3600 2300
+Wire Wire Line
+	3600 2300 3400 2300
+Wire Wire Line
+	3700 2150 3700 2400
+Wire Wire Line
+	3700 2400 3400 2400
+Wire Wire Line
+	3800 2150 3800 2500
+Wire Wire Line
+	3800 2500 4800 2500
+Wire Wire Line
+	3900 2150 3900 2600
+Wire Wire Line
+	4000 2150 4000 2700
+Connection ~ 4000 2700
+Wire Wire Line
+	4100 2150 4100 2800
+Connection ~ 4100 2800
+Wire Wire Line
+	4100 2800 3400 2800
+Wire Wire Line
+	4200 2150 4200 2900
+Wire Wire Line
+	4000 2700 4800 2700
+Wire Wire Line
+	3900 2600 4800 2600
+Wire Wire Line
+	6000 2700 6350 2700
+Wire Wire Line
+	4300 2150 4300 3000
+Wire Wire Line
+	4300 3000 4800 3000
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 5D56D97C
+P 3900 1950
+F 0 "J1" V 3864 1462 50  0000 R CNN
+F 1 "Conn_01x08" V 3773 1462 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 3900 1950 50  0001 C CNN
+F 3 "~" H 3900 1950 50  0001 C CNN
+	1    3900 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 3100 3600 3100
+Wire Wire Line
+	3600 3100 3600 4200
+Wire Wire Line
+	4800 3200 3700 3200
+Wire Wire Line
+	3700 3200 3700 4200
+Wire Wire Line
+	3800 3400 3800 4200
+Wire Wire Line
+	4800 3500 3900 3500
+Wire Wire Line
+	3900 3500 3900 4200
+Wire Wire Line
+	6000 3500 6000 3750
+Wire Wire Line
+	6000 3750 4000 3750
+Wire Wire Line
+	4000 3750 4000 4200
+Wire Wire Line
+	6000 3400 6100 3400
+Wire Wire Line
+	6100 3400 6100 3850
+Wire Wire Line
+	6100 3850 4100 3850
+Wire Wire Line
+	4100 3850 4100 4200
+Wire Wire Line
+	6000 3300 6200 3300
+Wire Wire Line
+	6200 3300 6200 3950
+Wire Wire Line
+	6200 3950 4200 3950
+Wire Wire Line
+	4200 3950 4200 4200
+$Comp
+L Transistor_FET:IRLML6402 Q1
+U 1 1 5D7BCC3D
+P 7250 3200
+F 0 "Q1" V 7590 3200 50  0000 C CNN
+F 1 "IRLML6402" V 7501 3200 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7450 3125 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 7250 3200 50  0001 L CNN
+F 4 "MOSFET P Trench 20V 3.7A 1.2V @ 250uA 65 mΩ @ 3.7A，4.5V SOT-23(SOT-23-3) RoHS" H 7250 3200 50  0001 C CNN "Description"
+F 5 "Infineon Technologies" H 7250 3200 50  0001 C CNN "Manufacturer"
+F 6 "IRLML6402TRPBF" H 7250 3200 50  0001 C CNN "PartNumber"
+F 7 "SMD" H 7250 3200 50  0001 C CNN "MountType"
+	1    7250 3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BCV62 Q2
+U 1 1 5D7BCC43
+P 7250 3850
+F 0 "Q2" H 7537 3895 50  0000 L CNN
+F 1 "BCV62" H 7537 3806 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 7250 3850 50  0001 C CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BCV62.pdf" H 7150 3850 50  0001 L CNN
+F 4 "Transistors (NPN/PNP) 2 PNP（Double）Current Mirror 100mA 30V SOT-143B RoHS" H 7250 3850 50  0001 C CNN "Description"
+F 5 "Nexperia" H 7250 3850 50  0001 C CNN "Manufacturer"
+F 6 "BCV62" H 7250 3850 50  0001 C CNN "PartNumber"
+F 7 "SMD" H 7250 3850 50  0001 C CNN "MountType"
+	1    7250 3850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3650 7650 3650
+Wire Wire Line
+	7650 3650 7650 3100
+Connection ~ 7650 3100
+Wire Wire Line
+	7650 3100 7450 3100
+Wire Wire Line
+	7050 3650 6850 3650
+Wire Wire Line
+	6850 3650 6850 3100
+Wire Wire Line
+	6850 3100 7050 3100
+Wire Wire Line
+	7250 3400 6650 3400
+Wire Wire Line
+	6650 3400 6650 4050
+Wire Wire Line
+	6650 4050 7050 4050
+$Comp
+L Device:R R2
+U 1 1 5D7BCC54
+P 7450 4250
+F 0 "R2" H 7380 4205 50  0000 R CNN
+F 1 "10k" H 7380 4294 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7380 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8J0103T5E_C25612.pdf" H 7450 4250 50  0001 C CNN
+F 4 "Chip Resistor - Surface Mount 10KOhms ±5% 1/8W 0805 RoHS" H 7450 4250 50  0001 C CNN "Description"
+F 5 "Uniroyal Elec" H 7450 4250 50  0001 C CNN "Manufacturer"
+F 6 "0805W8J0103T5E" H 7450 4250 50  0001 C CNN "PartNumber"
+F 7 "SMD" H 7450 4250 50  0001 C CNN "MountType"
+	1    7450 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D7BCC5A
+P 7050 4250
+F 0 "R1" H 6980 4205 50  0000 R CNN
+F 1 "47.5k" H 6980 4294 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6980 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8J0103T5E_C25612.pdf" H 7050 4250 50  0001 C CNN
+F 4 "Chip Resistor - Surface Mount 47.5KOhms ±1% 1/8W 0805 RoHS" H 7050 4250 50  0001 C CNN "Description"
+F 5 "Uniroyal Elec" H 7050 4250 50  0001 C CNN "Manufacturer"
+F 6 "0805W8F4752T5E" H 7050 4250 50  0001 C CNN "PartNumber"
+F 7 "SMD" H 7050 4250 50  0001 C CNN "MountType"
+	1    7050 4250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7450 4400 7450 4450
+Wire Wire Line
+	7050 4450 7050 4400
+Wire Wire Line
+	7450 4050 7450 4100
+Wire Wire Line
+	7050 4100 7050 4050
+Connection ~ 7050 4050
+$Comp
+L power:GND #PWR03
+U 1 1 5D7BCC66
+P 7250 4450
+F 0 "#PWR03" H 7250 4200 50  0001 C CNN
+F 1 "GND" H 7255 4279 50  0000 C CNN
+F 2 "" H 7250 4450 50  0001 C CNN
+F 3 "" H 7250 4450 50  0001 C CNN
+	1    7250 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J2
+U 1 1 5D57DF95
+P 4000 4400
+F 0 "J2" V 4125 4396 50  0000 C CNN
+F 1 "Conn_01x09" V 4216 4396 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x09_P1.27mm_Vertical" H 4000 4400 50  0001 C CNN
+F 3 "~" H 4000 4400 50  0001 C CNN
+	1    4000 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 4200 4600 4200
+Wire Wire Line
+	4600 4200 4600 4600
+$Comp
+L power:GND #PWR02
+U 1 1 5D581B09
+P 6350 2700
+F 0 "#PWR02" H 6350 2450 50  0001 C CNN
+F 1 "GND" V 6355 2572 50  0000 R CNN
+F 2 "" H 6350 2700 50  0001 C CNN
+F 3 "" H 6350 2700 50  0001 C CNN
+	1    6350 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5D581FB7
+P 4600 4600
+F 0 "#PWR01" H 4600 4350 50  0001 C CNN
+F 1 "GND" H 4605 4427 50  0000 C CNN
+F 2 "" H 4600 4600 50  0001 C CNN
+F 3 "" H 4600 4600 50  0001 C CNN
+	1    4600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4450 7250 4450
+Connection ~ 7250 4450
+Wire Wire Line
+	7250 4450 7050 4450
+Wire Wire Line
+	7950 3100 7650 3100
+Wire Wire Line
+	7950 3900 7950 4450
+Wire Wire Line
+	7950 4450 7450 4450
+Connection ~ 7450 4450
+Wire Wire Line
+	7950 3600 7950 3100
+Wire Wire Line
+	6850 3100 6300 3100
+Connection ~ 6850 3100
+Wire Wire Line
+	4300 4200 4300 4050
+Wire Wire Line
+	4300 4050 6300 4050
+Wire Wire Line
+	6300 4050 6300 3100
+Connection ~ 6300 3100
+Wire Wire Line
+	6300 3100 6000 3100
+Wire Wire Line
+	4800 3400 3800 3400
+Wire Wire Line
+	4200 2900 3400 2900
+Connection ~ 4200 2900
+Wire Wire Line
+	1600 6250 1600 6750
+Wire Wire Line
+	3000 6000 3500 6000
+Wire Wire Line
+	3000 6000 2000 6000
+Connection ~ 3000 6000
+Wire Wire Line
+	1600 5750 1600 6250
+Connection ~ 1600 5750
+$EndSCHEMATC

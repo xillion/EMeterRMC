@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name EMeterRMC-rescue)(type Legacy)(uri ${KIPRJMOD}/EMeterRMC-rescue.lib)(options "")(descr ""))
+)
