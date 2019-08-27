@@ -1,4 +1,4 @@
-16071961128963717
+16075116636347717
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -1133,6 +1133,13 @@ switch normally-open pushbutton push-button
 0
 4
 4
+Button_Switch_SMD
+SW_PCB_SNAPTRON_PNP-06
+
+
+0
+2
+2
 Button_Switch_SMD
 SW_Push_1P1T_NO_6x6mm_H9.5mm
 tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
@@ -6255,8 +6262,8 @@ GCT_SIM8055-6-1-14-00-A
 
 
 0
-9
-9
+11
+11
 Connector_Card
 SD_Kyocera_145638009211859+
 SD Card Connector, Normal Type, Outer Tail, Without Ejector (https://global.kyocera.com/prdct/electro/product/pdf/5638.pdf)
@@ -45328,6 +45335,13 @@ Inductor_SMD
 L_Fastron_PISR_Handsoldering
 Choke, Drossel, PISR, Fastron, SMD,
 Choke Drossel PISR Fastron SMD 
+0
+2
+2
+Inductor_SMD
+L_JINLAI_JSHC0650
+
+
 0
 2
 2
